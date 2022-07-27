@@ -48,7 +48,26 @@ nav ul li {
   background: url(background.jpeg) no-repeat;
   background-size: cover;
   background-position: center;
-  height: 90vh;
+  height: 100vh;
+}
+.header-wrapper .btn-scroll {
+  transition: 0.4s;
+  color: rgba(255, 255, 255, 0.6);
+  animation: up-down 1s ease-in-out infinite alternate-reverse both;
+}
+
+.header-wrapper .btn-scroll:hover {
+  color: rgba(255, 255, 255, 0.6);
+}
+.header-wrapper .btn-scroll{
+  font-size: 60px;
+  bottom: 5.5%;
+  left: 0;
+  margin: 0 auto;
+  position: absolute;
+  right: 0;
+  width: 25px;
+
 }
 .main-info {
   display: flex;
@@ -185,4 +204,216 @@ nav ul li {
   padding-top: 30px;
   font-size: large;
   font-family: 'Courier New', Courier, monospace;
+}
+/*******************Section***********************/
+section{
+  padding: 60px 0;
+}
+.section-bg{
+  background-color: #fff;
+}
+.section-title {
+  text-align: center;
+  padding: 30px 0;
+  position: relative;
+}
+.section-title h2 {
+  font-size: 32px;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+  padding-bottom: 0;
+  color: #3b434a;
+  position: relative;
+  z-index: 2;
+}
+.section-title h4{
+  font-family: 'Courier New', Courier, monospace;
+}
+.section-title span {
+  position: absolute;
+  top: 30px;
+  color: #eef0f2;
+  left: 0;
+  right: 0;
+  z-index: 1;
+  font-weight: 700;
+  font-size: 52px;
+  text-transform: uppercase;
+  line-height: 0;
+}
+.section-title p {
+  margin-bottom: 0;
+  position: relative;
+  z-index: 2;
+}
+@media (max-width: 575px) {
+  .section-title h2 {
+    font-size: 28px;
+    margin-bottom: 15px;
+  }
+
+  .section-title span {
+    font-size: 38px;
+  }
+}
+/******************Breadcrumbs****************************/
+.breadcrumbs {
+  padding: 20px 0;
+  background-color: #f4f5f6;
+  min-height: 40px;
+  margin-top: 78px;
+}
+
+@media (max-width: 992px) {
+  .breadcrumbs {
+    margin-top: 60px;
+  }
+}
+
+.breadcrumbs h2 {
+  font-size: 24px;
+  font-weight: 300;
+  margin: 0;
+}
+
+@media (max-width: 992px) {
+  .breadcrumbs h2 {
+    margin: 0 0 10px 0;
+  }
+}
+
+.breadcrumbs ol {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  font-size: 14px;
+}
+
+.breadcrumbs ol li+li {
+  padding-left: 10px;
+}
+
+.breadcrumbs ol li+li::before {
+  display: inline-block;
+  padding-right: 10px;
+  color: #6c757d;
+  content: "/";
+}
+
+@media (max-width: 768px) {
+  .breadcrumbs .d-flex {
+    display: block !important;
+  }
+
+  .breadcrumbs ol {
+    display: block;
+  }
+
+  .breadcrumbs ol li {
+    display: inline-block;
+  }
+}
+
+/******************About*************************/
+.about .content h3 {
+  font-weight: 700;
+  font-size: 26px;
+  color: #3b434a;
+  text-transform: uppercase;
+}
+.about .content ul{
+  list-style: none;
+  padding: 0;
+}
+.about .content ul li{
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+}
+.about .content ul strong {
+  margin-right: 10px;
+}
+.about .content ul i{
+  font-size: 16px;
+  margin-right: 5px;
+  line-height: 0;
+  color: #ffb727;
+}
+
+.about .image {
+  background: url(about.jpg) center center no-repeat;
+  background-size: cover;
+  min-height: 500px ;
+}
+/*********************Contact***************************/
+.contact .form {
+  box-shadow: 0 0 30px rgba(214, 215, 216, 0.6);
+  padding: 30px;
+}
+.contact .form input{
+  padding: 10px 15px;
+}
+.contact .form textarea{
+  padding: 12px 15px;
+}
+.contact .form button[type="submit"]{
+  background: red;
+  border: 0;
+  padding: 10px 24px;
+  color: var(--primary-white);
+  transition: 0.4s;
+}
+.contact .form button[type="submit"]:hover {
+  background: red;
+}
+/*********************Services**************************/
+.services .icon-box {
+  box-shadow: 0px 0 25px 0 rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+  padding: 30px;
+  border-radius: 6px;
+  background: #fff;
+  transition: all ease-in-out 0.4s;
+}
+.services .icon-box i {
+  float: left;
+  color: #5c8eb0;
+  font-size: 40px;
+  line-height: 0;
+  transition: 0.3s;
+}
+
+.services .icon-box h4 {
+  margin-left: 70px;
+  font-weight: 700;
+  margin-bottom: 15px;
+  font-size: 18px;
+  transition: ease-in-out 0.3s;
+}
+
+.services .icon-box h4 a {
+  color: #365870;
+  transition: 0.3s;
+  text-decoration: none;
+}
+
+.services .icon-box:hover {
+  transform: translateY(-20px);
+}
+
+.services .icon-box .icon-box:hover h4 a {
+  color: #f9ab00;
+}
+
+.services .icon-box p {
+  margin-left: 70px;
+  line-height: 24px;
+  font-size: 14px;
+}
+
+.services .icon-box:hover h4 a {
+  color: #f9ab00;
 }

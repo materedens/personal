@@ -25,7 +25,7 @@ function Footer() {
                         </div>
                         <div className="col-lg-4 col-md-6">
                             <div className="footer-info">
-                                <p><Icon icon="bx:mail-send" className='mail' />  info@gmail.com </p>
+                                <p><Icon icon="bx:mail-send" className='mail' />  denismatere@gmail.com </p>
                             </div>
                         </div>
                     </div>
