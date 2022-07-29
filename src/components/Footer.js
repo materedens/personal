@@ -1,9 +1,9 @@
 import React from 'react'
-import {Icon} from '@iconify/react';
+import { Icon } from '@iconify/react';
 
 function Footer() {
-  return (
-    <footer id="footer">
+    return (
+        <footer id="footer">
             <div className="footer-top">
                 <div className="container">
                     <div className="row">
@@ -20,7 +20,7 @@ function Footer() {
                         </div>
                         <div className="col-lg-4 col-md-6">
                             <div className="footer-info">
-                                  <p><Icon icon="bx:phone-call" className='phone' />  +254 792 65 63 98 </p>
+                                <p><Icon icon="bx:phone-call" className='phone' />  +254 792 65 63 98 </p>
                             </div>
                         </div>
                         <div className="col-lg-4 col-md-6">
@@ -37,8 +37,8 @@ function Footer() {
                 </div>
             </div>
         </footer>
-    
-  )
+
+    )
 }
 
 export default Footer
