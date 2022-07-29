@@ -11,10 +11,10 @@ function Footer() {
                             <div className="footer-info">
                                 <p><Icon icon="bx:map-alt" className='phone' /> Kitale, Kenya </p>
                                 <div className="social-links mt-3">
-                                    <a href="#" className="twitter"><Icon icon="bx:bxl-twitter" /></a>
-                                    <a href="#" className="facebook"><Icon icon="bx:bxl-facebook" /></a>
-                                    <a href="#" className="instagram"><Icon icon="bx:bxl-instagram" /></a>
-                                    <a href="#" className="linkedin"><Icon icon="bx:bxl-linkedin" /></a>
+                                    <a href="https://twitter.com/MatereDenis" className="twitter"><Icon icon="bx:bxl-twitter" /></a>
+                                    <a href="https://web.facebook.com/osundwa.denis/" className="facebook"><Icon icon="bx:bxl-facebook" /></a>
+                                    <a href="https://www.instagram.com/denismatere/" className="instagram"><Icon icon="bx:bxl-instagram" /></a>
+                                    <a href="https://www.linkedin.com/in/denis-matere-56b00077/" className="linkedin"><Icon icon="bx:bxl-linkedin" /></a>
                                 </div>
                             </div>
                         </div>
@@ -25,7 +25,7 @@ function Footer() {
                         </div>
                         <div className="col-lg-4 col-md-6">
                             <div className="footer-info">
-                                <p><Icon icon="bx:mail-send" className='mail' />  denismatere@gmail.com </p>
+                                <p><Icon icon="bx:mail-send" className='mail' />  info@matere.com </p>
                             </div>
                         </div>
                     </div>
