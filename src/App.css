@@ -55,7 +55,7 @@ nav ul li {
 
 /**********************GetStarted****************************/
 .navbar .getstarted {
-  padding: 5px 20px;
+  padding: 8px 20px;
   margin-left: 0;
   border-radius: 4px;
   color: var(--primary-white) !important;
@@ -63,6 +63,8 @@ nav ul li {
   border: 2px solid var(--primary-dark);
   text-decoration: none;
   text-transform: uppercase;
+  transition: 0.3s;
+  display: inline-block;
 
 }
 
