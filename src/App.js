@@ -7,6 +7,7 @@ import Footer from './components/Footer';
 import About from './components/About';
 import Contact from './components/Contact';
 import Services from './components/Services';
+import ScrollToTop from 'react-scroll-to-top';
 
 
 function App() {
@@ -39,6 +40,7 @@ function App() {
       <Services />
       <Contact />
       <Footer />
+      <ScrollToTop style={{ marginTop: "150vh"}} smooth color='#ef4035'/>
 
     </>
   );
