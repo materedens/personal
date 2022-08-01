@@ -40,7 +40,7 @@ function App() {
       <Services />
       <Contact />
       <Footer />
-      <ScrollToTop style={{ marginTop: "150vh"}} smooth color='#ef4035'/>
+      <ScrollToTop style={{ marginTop: "150vh" }} smooth color='#ef4035' />
 
     </>
   );
