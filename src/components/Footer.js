@@ -15,6 +15,7 @@ function Footer() {
                                     <a href="https://web.facebook.com/osundwa.denis/" className="facebook"><Icon icon="bx:bxl-facebook" /></a>
                                     <a href="https://www.instagram.com/denismatere/" className="instagram"><Icon icon="bx:bxl-instagram" /></a>
                                     <a href="https://www.linkedin.com/in/denis-matere-56b00077/" className="linkedin"><Icon icon="bx:bxl-linkedin" /></a>
+                                    <a href="https://github.com/materedens/" className="github"><Icon icon="bx:bxl-github" /></a>
                                 </div>
                             </div>
                         </div>
@@ -25,7 +26,7 @@ function Footer() {
                         </div>
                         <div className="col-lg-4 col-md-6">
                             <div className="footer-info">
-                                <p><Icon icon="bx:mail-send" className='mail' />  info@matere.com </p>
+                                <p><Icon icon="bx:mail-send" className='mail' />  info@matere.co.ke </p>
                             </div>
                         </div>
                     </div>

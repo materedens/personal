@@ -8,6 +8,7 @@ import About from './components/About';
 import Contact from './components/Contact';
 import Services from './components/Services';
 import ScrollToTop from 'react-scroll-to-top';
+// import Preloader from './components/Preloader';
 
 
 function App() {
@@ -34,6 +35,7 @@ function App() {
           }
          }}
       /> */}
+      {/* <Preloader /> */}
       <Navbar />
       <Header />
       <About />

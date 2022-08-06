@@ -1,11 +1,12 @@
 import React from 'react'
+import { Icon } from '@iconify/react';
 
 const About = () => {
   return (
     <section id='about' className='about section-bg'>
       <div className='container'>
         <div className='section-title'>
-          <span>About Me</span>
+          <span>Get to know me.</span>
           <h2>About Me</h2>
           {/* <p>Get to know me.</p> */}
         </div>
@@ -27,6 +28,63 @@ const About = () => {
             </div> <hr></hr>
           </div>
 
+        </div>
+      </div>
+      {/* Tech Stack */}
+      <div className='stack container'>
+        <div className='section-title'>
+          <span>Skills</span>
+          <h2>Skills</h2>
+        </div>
+        <div className='row'>
+          <div className='col-lg-3 col-md-4'>
+            <div className='icon-box'>
+              <i><Icon icon="vscode-icons:file-type-html" /></i>
+              <h3>HTML</h3>
+            </div>
+          </div>
+          <div className='col-lg-3 col-md-4 mt-4 mt-md-0'>
+            <div className='icon-box'>
+              <i><Icon icon="vscode-icons:file-type-css" /></i>
+              <h3>CSS</h3>
+            </div>
+          </div>
+          <div className='col-lg-3 col-md-4 mt-4 mt-md-0'>
+            <div className='icon-box'>
+              <i><Icon icon="logos:javascript" /></i>
+              <h3>JAVASCRIPT</h3>
+            </div>
+          </div>
+          <div className='col-lg-3 col-md-4 mt-4 mt-lg-0'>
+            <div className='icon-box'>
+              <i><Icon icon="logos:mysql" /></i>
+              <h3>mysql</h3>
+            </div>
+          </div>
+          <div className='col-lg-3 col-md-4 mt-4'>
+            <div className='icon-box'>
+              <i><Icon icon="vscode-icons:file-type-php2" /></i>
+              <h3>php</h3>
+            </div>
+          </div>
+          <div className='col-lg-3 col-md-4 mt-4'>
+            <div className='icon-box'>
+              <i><Icon icon="vscode-icons:file-type-reactjs" /></i>
+              <h3>reactjs</h3>
+            </div>
+          </div>
+          <div className='col-lg-3 col-md-4 mt-4'>
+            <div className='icon-box'>
+              <i><Icon icon="logos:bootstrap" /></i>
+              <h3>bootstrap</h3>
+            </div>
+          </div>
+          <div className='col-lg-3 col-md-4 mt-4'>
+            <div className='icon-box'>
+              <i><Icon icon="logos:material-ui" /></i>
+              <h3>material ui</h3>
+            </div>
+          </div>
         </div>
       </div>
     </section>
