@@ -9,6 +9,7 @@ import About from './components/About';
 import Contact from './components/Contact';
 import Services from './components/Services';
 import ScrollToTop from 'react-scroll-to-top';
+import Whatsapp from "./components/Whatsapp";
 
 
 function App() {
@@ -76,6 +77,7 @@ function App() {
           <Services />
           <Contact />
           <Footer />
+          <Whatsapp/>
           <ScrollToTop style={{ marginTop: "150vh" }} smooth color='#ef4035' />
         </>
       )}
