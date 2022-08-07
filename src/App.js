@@ -11,7 +11,7 @@ import Services from './components/Services';
 import ScrollToTop from 'react-scroll-to-top';
 
 
-function App() { 
+function App() {
   const [data, setData] = useState([]);
   const [loading, setloading] = useState(undefined);
   const [completed, setcompleted] = useState(undefined);
@@ -34,21 +34,21 @@ function App() {
 
   return (
     <>
-    {!completed ? (
-      <>
-      {!loading ? (
-        <div className='spinner'>
-          <span>DENNIS MATERE......</span>
-          <div className='half-spinner'></div>
-        </div>
+      {!completed ? (
+        <>
+          {!loading ? (
+            <div className='spinner'>
+              <span>DENNIS MATERE...</span>
+              <div className='half-spinner'></div>
+            </div>
+          ) : (
+            <div className='completed'>&#x2713;</div>
+          )}
+        </>
       ) : (
-        <div className='completed'>&#x2713;</div>
-      )}
-      </>
-    ) : (
-      <>
-   
-      {/* <Particles 
+        <>
+
+          {/* <Particles 
        className="particles-canvas"
          params={{
           particles:{
@@ -69,17 +69,17 @@ function App() {
           }
          }}
       /> */}
-      {/* <Preloader /> */}
-      <Navbar />
-      <Header />
-      <About />
-      <Services />
-      <Contact />
-      <Footer />
-      <ScrollToTop style={{ marginTop: "150vh" }} smooth color='#ef4035' />
-      </>
-     )}
-     </>
+          {/* <Preloader /> */}
+          <Navbar />
+          <Header />
+          <About />
+          <Services />
+          <Contact />
+          <Footer />
+          <ScrollToTop style={{ marginTop: "150vh" }} smooth color='#ef4035' />
+        </>
+      )}
+    </>
   );
 }
 

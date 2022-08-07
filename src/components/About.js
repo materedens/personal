@@ -33,8 +33,8 @@ const About = () => {
       {/* Tech Stack */}
       <div className='stack container'>
         <div className='section-title'>
-          <span>Skills</span>
-          <h2>Skills</h2>
+          <span>Tech Stack</span>
+          <h2>Tech Stack</h2>
         </div>
         <div className='row'>
           <div className='col-lg-3 col-md-4'>
