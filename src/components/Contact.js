@@ -28,7 +28,7 @@ export const Contact = () => {
     };
 
     return (
-        <section id='contact' className='contact section-bg'>
+        <section id='contact' className='contact section'>
             <div className='container'>
                 <div className='section-title'>
                     <span>Contact</span>

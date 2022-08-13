@@ -17,12 +17,12 @@ const About = () => {
               <div className='row'>
                 <div className='col-12 col-lg-12 content'>
                   <h2>Who am I?</h2>
-                  <h4>I'm Dennis, A Front End Software Developer.</h4>
-                  <h5>
+                  <h4 className='content-subtitle'>I'm Dennis, A Front-End Software Developer.</h4>
+                  <p className='desc'>
                     I'm a self-motivated, creative programmer, open source contributor and IT specialist looking for an opportunity to work as a remote and full-time Full-stack software, web developer and IT professional.
                     I love to bring ideas to life by creating modern and responsive web experiences. I enjoy being challenged and love working on projects that require working out of my comfort zone and skill set.
                     I’m looking for remote job opportunities to put my excellent problem-solving skills to use.
-                  </h5>
+                  </p>
                 </div>
               </div><br></br><br></br>
             </div> <hr></hr>
@@ -34,7 +34,7 @@ const About = () => {
       <div className='stack container'>
         <div className='section-title'>
           <span>Tech Stack</span>
-          <h2>Tech Stack</h2>
+          <h2>Skills</h2>
         </div>
         <div className='row'>
           <div className='col-lg-3 col-md-4'>
