@@ -8,7 +8,6 @@ const About = () => {
         <div className='section-title'>
           <span>Get to know me.</span>
           <h2>About Me</h2>
-          {/* <p>Get to know me.</p> */}
         </div>
         <div className='row'>
           <div className='image col-lg-4 d-flex align-items-stretch justify-content-center justify-content-lg-start'></div>

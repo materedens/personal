@@ -43,7 +43,7 @@ function App() {
               <div className='half-spinner'></div>
             </div>
           ) : (
-            <div className='completed'>&#x2713;</div>
+            <div className='completed'>DENNIS MATERE</div>
           )}
         </>
       ) : (
@@ -77,7 +77,7 @@ function App() {
           <Services />
           <Contact />
           <Footer />
-          <Whatsapp/>
+          <Whatsapp />
           <ScrollToTop style={{ marginTop: "150vh" }} smooth color='#ef4035' />
         </>
       )}
